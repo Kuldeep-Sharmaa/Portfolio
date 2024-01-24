@@ -52,7 +52,7 @@
 
   /* into-text-witdh */
   .intro .text {
-    width: 70%;
+    width: 85%;
   }
   /* skills-style */
   .skills {
@@ -130,9 +130,15 @@
     }
 
     main .homepage .leftside {
-      width: 60vw;
+      width: 80vw;
       font-size: 2rem;
       padding-bottom: 50px;
+    }
+
+    /* typed words color */
+    #element {
+      font-size: 2rem;
+      letter-spacing: 1px;
     }
 
     /* button-style */
