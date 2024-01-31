@@ -290,22 +290,6 @@ img {
   transform: translateY(0px);
 }
 
-.content p button {
-  font-family: var(--main-font);
-  margin: 0px 10px;
-  padding: 0px 7px;
-  border-radius: 10px;
-  background-color: var(--main-color);
-  color: #fcfafa;
-  cursor: pointer;
-  border: 2px seashell solid;
-  font-size: 1rem;
-}
-
-.content p button:hover {
-  background-color: #ff6a3db8;
-}
-
 .note {
   display: flex;
   justify-content: center;
@@ -322,6 +306,28 @@ img {
   margin-top: 45px;
 }
 
+/* buttons */
+.links {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+}
+
+.links button {
+  font-family: var(--main-font);
+  margin: 5px 10px;
+  padding: 0px 7px;
+  border-radius: 10px;
+  background-color: var(--main-color);
+  color: #fcfafa;
+  cursor: pointer;
+  border: 2px seashell solid;
+  font-size: 1rem;
+}
+
+.links button:hover {
+  background-color: #ff6a3db8;
+}
 /* responsive-media-start */
 .social-media-reps {
   display: none;
@@ -393,4 +399,16 @@ footer {
   margin-top: 20px;
   align-items: center;
   height: 15vh;
+}
+
+.love {
+  font-family: "Courier New";
+
+  color: #8a8f99;
+}
+
+.art {
+  margin: 5px;
+  font-weight: 800;
+  color: rgb(199, 25, 25);
 }
